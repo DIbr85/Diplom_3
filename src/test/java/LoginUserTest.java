@@ -10,7 +10,7 @@ import pom.RegistrationPage;
 
 public class LoginUserTest extends BaseTest {
     @Before
-    public void CreateUser() {
+    public void createUser() {
         userClient.createUserStep(user);
     }
 
