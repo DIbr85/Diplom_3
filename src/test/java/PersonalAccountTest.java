@@ -9,7 +9,7 @@ import pom.PersonalAccountPage;
 
 public class PersonalAccountTest extends BaseTest {
     @Before
-    public void CreateUser() {
+    public void createUser() {
         userClient.createUserStep(user);
     }
 

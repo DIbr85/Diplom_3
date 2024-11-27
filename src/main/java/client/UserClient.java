@@ -10,9 +10,9 @@ import static io.restassured.RestAssured.given;
 
 
 public class UserClient {
-    String REGISTER_USER_API = "/api/auth/register";
-    String AUTH_USER_API = "/api/auth/user";
-    String LOGIN_USER_API = "/api/auth/login";
+    static final String REGISTER_USER_API = "/api/auth/register";
+    static final String AUTH_USER_API = "/api/auth/user";
+    static final String LOGIN_USER_API = "/api/auth/login";
 
     public UserClient() {
         RestAssured.baseURI = "https://stellarburgers.nomoreparties.site";
